@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-image: url(../imagenes/sena2.jpg);
+}
+
+h1{
+    color: rgb(99 237 99);
+    font-size: 70px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+iframe,audio{
+    display: block;
+    margin: 0 auto; 
+}
+.button{
+    text-align: center;
+    display: block;
+}

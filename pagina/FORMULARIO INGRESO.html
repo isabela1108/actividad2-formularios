@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Ingreso</title>
+  <link rel="stylesheet" type="text/css" href="estilos/estilos.css">
+</head>
+<body>
+
+<h2>Formulario de Ingreso</h2>
+
+<form action="/enviar_datos" method="post">
+  <label for="nombres">NOMBRES:</label><br>
+  <input type="text" id="nombres" name="nombres" required><br><br>
+
+  <label for="apellidos">APELLIDOS:</label><br>
+  <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+  <label for="email">CORREO ELECTRONICO:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  
+</form>
+
+<!-- Botón para salir del formulario -->
+<form action="/salir" method="get">
+  <input type="submit" value="Salir">
+  <input type="button" value="Volver al Inicio" onclick="window.location.href='index.html'">
+  <input type="button" value="Enviar" onclick="window.location.href='landing page.html'">
+</form>
+</body>
+</html>
